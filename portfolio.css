@@ -90,7 +90,7 @@ font-family: futura;
 .project {
 	
 	display: flex;
-	background-color: blue;
+	background-color: #ffb3db;
 	margin: 0;
 	padding: 25px;
 	 justify-content: center;
