@@ -181,7 +181,7 @@ font-family: futura;
 	
 	.header li a:hover {
 		
-		background-color: blue;
+		background-color: #ffb3db;
 		color: white;
 	}
 }
