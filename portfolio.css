@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+body {
+	
+background-color: black;
+padding: 0px;
+margin: 0;
+font-family: futura;
+	
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 20px;
+  padding: 0;
+}
+
+.hamburger span {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  display: block;
+  border-radius: 2px;
+}
+
+.header {
+	
+	height: 150px;
+	width: 100%;
+	background-color: white;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	position: sticky; top: 0;
+	align-items: center;
+		
+}
+
+.header h1 {
+    color: transparent;
+    background-image: url("h1.png");
+    background-repeat: none;
+    background-size: cover;
+    height: 97px;
+    width: 300px;
+    padding: none;
+    margin-left: 15px;
+}
+
+.header a {
+	
+	text-decoration: none;
+	color: black;
+	
+}
+
+.header ul {
+    float: right;
+    text-align: right;
+	margin-left: auto; /* This pushes the ul to the right */
+    margin-right: 20px;
+	font-size: 20px;
+}
+.header ul li {
+	
+	color: black;
+	display: inline-block;
+	padding-right: 10px;
+	
+	
+}
+
+.header li a:hover {
+		
+
+	text-decoration: underline;
+		
+	
+	}
+
+
+.project {
+	
+	display: flex;
+	background-color: blue;
+	margin: 0;
+	padding: 25px;
+	 justify-content: center;
+    
+}
+
+.projecttext {
+	
+	display: block;
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.projecttext p {
+	
+	font-size: 20px;
+}
+
+.projecttext h2 {
+	
+	font-size: 35px;
+}
+
+.projectimage {
+	
+	align-items: center;  
+	background-color: black;
+	display: block;
+	width: 400px;
+	height: 300px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+.banner2 {
+	
+		display: block;
+	height: 500px;
+	background-color: green;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    height: auto;
+    padding: 10px;
+  }
+
+  .header h1 {
+    margin: 0;
+    flex: 1;
+  }
+
+  .hamburger {
+    display: flex; /* show hamburger only on mobile */
+  }
+
+  .header ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .header ul.show {
+    display: flex;
+  }
+
+  .header ul li {
+    text-align: center;
+    display: block;
+  }
+	
+	.header li a {
+		
+	display: block;
+	width: 100%;
+		padding: 5px;
+		margin: none;
+	}
+	
+	.header li a:hover {
+		
+		background-color: blue;
+		color: white;
+	}
+}
