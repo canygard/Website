@@ -187,8 +187,9 @@ button {
 
 button:hover {
 	
-	background-color: black;
-	border: medium;
+	background-color: white; 
+	color: #240B36;
+	border: 2px solid #240B36;
 }
 
 @media only screen and (max-width: 600px) {
