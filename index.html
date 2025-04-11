@@ -15,6 +15,12 @@
     const navMenu = document.getElementById('navMenu');
     navMenu.classList.toggle('show');
   }
+		function toggleMenu() {
+  const navMenu = document.getElementById('navMenu');
+  const hamburger = document.querySelector('.hamburger');
+  navMenu.classList.toggle('show');
+  hamburger.classList.toggle('active'); // <-- add this
+}
 </script>
 	<div class="header">
 		<a href="index.html">	<h1>Connor Nygard</h1></a>
@@ -26,9 +32,9 @@
   </button>
 	  <ul id="navMenu">
     <li><a href="index.html">HOME</a></li>
-    <li><a href="index.html">HOME</a></li>
-	<li><a href="index.html">HOME</a></li>
-	<li><a href="index.html">HOME</a></li>
+    <li><a href="index.html">PORTFOLIO</a></li>
+	<li><a href="index.html">ABOUT</a></li>
+	<li><a href="index.html">CONTACT</a></li>
     
   </ul>
 		
@@ -36,31 +42,25 @@
 	
 	<div class="project">
 	
-
-		<div class="projectimage">
-			</div>
 			<div class="projecttext">
-		<h2>Hey! I'm Connor. Welcome to my portfolio!</h2>
-		<p>Check out my work in:</p>
-		<ul>
-		<li><a href="index.html">Graphic Design</a></li>
-    <li><a href="index.html">Web Design</a></li>
-	<li><a href="index.html">Video</a></li>
-	<li><a href="index.html">Audio and Music</a></li>
-				</ul>
+		<h2>Looking for a digital media wizard?</h2>
+				<p>Hi! I'm Connor. I have a bachelor's degree in strategic communications from the University of Utah and I'm looking for a job at your company.</p>
+				<p>I'm a passionate, detail-oriented person with skills in writing, graphic design, web design, audio, and video.</p>
 		
-		
-		
+				<div class="buttons">
+				<button>View My Work</button>
+		<button>Get to Know Me</button>
 		</div>
+		
+	  </div>
+		
+		
+		<div class="projectimage">
+			<img src="wizard.png" width="350px">
+	  </div>
 	
 	</div>
 
-	
-	<div class="banner2">
-	
-	
 
-	
-	</div>
 </body>
 </html>
