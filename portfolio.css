@@ -92,7 +92,12 @@ margin: 0;
 	font-family: helvetica;
 	font: bold;
 	color: black;
+
+}
+
+.header .active  {
 	
+	border-bottom: 5px solid;
 }
 
 .header ul {
@@ -111,13 +116,7 @@ margin: 0;
 	
 }
 
-.header li a:hover {
-		
 
-	text-decoration: underline;
-		
-	
-	}
 
 
 .project {
