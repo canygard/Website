@@ -164,18 +164,7 @@ margin: 0;
 
 
 
-button {
-	
-	width: 200px;
-	height: 70px;
-	border: none;
-	border-radius: 10px;
-	background-color: #240B36;
-	color: white;
-	font-size: 16pt;
-	font-weight: bold;
-	
-}
+
 
 .buttons {
 	display: flex;
@@ -185,7 +174,19 @@ button {
 	
 }
 
-button:hover {
+.big {
+	
+	width: 200px;
+	height: 70px;
+	border: none;
+	border-radius: 10px;
+	background-color: #240B36;
+	color: white;
+	font-size: 14pt;
+	font-weight: bold;
+	
+}
+.big:hover {
 	
 	background-color: white; 
 	color: #240B36;
