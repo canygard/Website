@@ -33,6 +33,10 @@ margin: 0;
   padding: 0;
 }
 
+.hamburger:hover {
+  background: none !important;
+}
+
 .hamburger span {
   height: 5px;
   width: 100%;
@@ -155,22 +159,15 @@ margin: 0;
 	display: block;
 	padding-left: 20px;
 	padding-right: 20px;
+	  margin-left: -50px;
 }
 
 
-
-.banner2 {
-	
-		display: block;
-	height: 500px;
-	background-color: white;
-
-}
 
 button {
 	
 	width: 200px;
-	height: 50px;
+	height: 70px;
 	border: none;
 	border-radius: 10px;
 	background-color: #240B36;
@@ -190,8 +187,7 @@ button {
 
 button:hover {
 	
-	background-color: white;
-	color: #240B36;
+	background-color: black;
 	border: medium;
 }
 
@@ -269,5 +265,6 @@ button:hover {
     padding: 0;
     margin: 0 auto;
 	  margin-top: 50px;
+	
   }
 }
