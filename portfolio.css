@@ -173,6 +173,8 @@ margin: 0;
 	
 }
 
+
+
 .big {
 	
 	width: 200px;
@@ -192,6 +194,70 @@ margin: 0;
 	border: 2px solid #240B36;
 }
 
+footer {
+	
+	padding-top: 50px;
+	padding: 25px;
+	margin: 0 auto;
+	width: 100vw;
+	text-align: center;
+	
+}
+
+footer p {
+	
+	margin-top: 25px;
+	text-align: center;
+}
+
+.icons {
+	
+	margin-top: 30px;
+	display: inline-flex;
+	gap: 20px;
+	
+	
+}
+
+.icon {
+	
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	color: transparent;
+	background-size: cover;
+	
+	
+}
+
+footer a {
+	
+	width: 50px;
+	height: 50px;
+	color: transparent;
+	margin: 0 auto;
+}
+
+#email {
+	
+	background-image: url(email.png)
+}
+
+#linkedin {
+	
+	background-image: url(linkedin.png)
+}
+
+#email:hover {
+	
+	background-image: url(emailhover.png);
+}
+
+#linkedin:hover {
+	
+	background-image: url(linkedinhover.png);
+}
 @media only screen and (max-width: 600px) {
 	
   .header {
