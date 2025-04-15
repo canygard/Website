@@ -158,7 +158,7 @@ margin: 0;
 	display: block;
 	padding-left: 20px;
 	padding-right: 20px;
-	  margin-left: -50px;
+ margin-left: 0;
 }
 
 
@@ -169,6 +169,7 @@ margin: 0;
 	display: flex;
   gap: 20px;
   margin-top: 30px;
+	  z-index: 2;
 	
 	
 }
@@ -333,6 +334,8 @@ footer a {
     padding: 0;
     margin: 0 auto;
 	  margin-top: 50px;
+	  z-index: 1;
+	    max-height: 300px;
 	
   }
 	
