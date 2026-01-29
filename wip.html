@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Connor Nygard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="portfolio.css" rel="stylesheet" type="text/css">
+</head>
+	
+
+<body>
+	
+	<script>
+  function toggleMenu() {
+    const navMenu = document.getElementById('navMenu');
+    navMenu.classList.toggle('show');
+  }
+		function toggleMenu() {
+  const navMenu = document.getElementById('navMenu');
+  const hamburger = document.querySelector('.hamburger');
+  navMenu.classList.toggle('show');
+  hamburger.classList.toggle('active'); // <-- add this
+}
+</script>
+	<div class="header">
+		<a href="index.html">	<h1>Connor Nygard</h1></a>
+	
+		<button class="hamburger" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+	  <ul id="navMenu">
+    <li><a class="active" href="index.html">HOME</a></li>
+    <li><a href="index.html">PORTFOLIO</a></li>
+	<li><a href="index.html">ABOUT</a></li>
+	<li><a href="index.html">CONTACT</a></li>
+    
+  </ul>
+		
+	</div>
+	
+	<div class="project">
+	
+			<div class="projecttext">
+		<h2>Looking for a Digital Media Wizard?</h2>
+				<p>Hi! I'm Connor. I have a bachelor's degree in strategic communications from the University of Utah and I'm looking for a job at your company.</p>
+				<p>I'm a passionate, detail-oriented person with skills in writing, graphic design, web design, audio, and video.</p>
+		
+				<div class="buttons">
+				<button class="big">View My Work</button>
+		<button class="big">Get to Know Me</button>
+		</div>
+		
+	  </div>
+		
+		
+		<div class="projectimage">
+			<img src="wizard-smoky.png" width="350px">
+	  </div>
+	
+	</div>
+	
+	<footer>
+		<div class="icons">
+	<a href="mailto:connoranygard@gmail.com" class="icon" id="email"><div>Email</div></a>
+		
+	<a href="https://www.linkedin.com/in/canygard/" class="icon" id="linkedin"><div >LinkedIn</div></a>
+			</div>
+		<p><a href="mailto:connoranygard@gmail.com">connoranygard@gmail.com</a></p>
+	<p>© Connor Nygard 2025</p>
+	
+	
+	</footer>
+
+
+</body>
+</html>
