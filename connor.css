@@ -11,3 +11,14 @@ body {
 	justify-content: center;
 	align content: center;
 }
+
+.travis {
+	
+	width: 100vh;
+	height: 100vh;
+	background-image: url("travis.JPG");
+	background-size: cover;
+	color: transparent;
+		
+	
+}
