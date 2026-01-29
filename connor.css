@@ -17,7 +17,8 @@ body {
 	width: 100vh;
 	height: 100vh;
 	background-image: url("travis.JPG");
-	background-size: cover;
+	background-size: 100vh;
+	background-repeat: no-repeat;
 	color: transparent;
 		
 	
