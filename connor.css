@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+h1 {
+	
+	font: bold;
+	font-size: 200;
+}
+
+body {
+	
+	justify-content: center;
+	align content: center;
+}
